@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:text="產生亂數"
+            android:id="@+id/btnNumber"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="請先按產生亂數"
+            android:textSize="24dp"
+            android:id="@+id/msg1"/>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="請選擇四個不重覆數字"
+            android:textSize="24dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/t1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:text="重選數字"
+            android:id="@+id/btnR1"/>
+    </LinearLayout>
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="24dp"
+            android:text="0"
+            android:layout_weight="1"
+            android:maxLength="4"
+            android:id="@+id/btn0"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="24dp"
+            android:text="1"
+            android:layout_weight="1"
+            android:id="@+id/btn1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="24dp"
+            android:text="2"
+            android:layout_weight="1"
+            android:id="@+id/btn2"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="24dp"
+            android:text="3"
+            android:layout_weight="1"
+            android:id="@+id/btn3"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="24dp"
+            android:layout_weight="1"
+            android:text="4"
+            android:id="@+id/btn4"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="24dp"
+            android:layout_weight="1"
+            android:text="5"
+            android:id="@+id/btn5"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="24dp"
+            android:text="6"
+            android:layout_weight="1"
+            android:id="@+id/btn6"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="24dp"
+            android:text="7"
+            android:layout_weight="1"
+            android:id="@+id/btn7"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="24dp"
+            android:text="8"
+            android:layout_weight="1"
+            android:id="@+id/btn8"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="24dp"
+            android:layout_weight="1"
+            android:text="9"
+            android:id="@+id/btn9"/>
+
+
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:gravity="center"
+            android:textSize="30dp"
+            android:layout_weight="1"
+            android:background="#FF00FFFF"
+            android:id="@+id/t5"/>
+
+
+
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:text="猜測"
+            android:id="@+id/btnOK"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="結果 : "
+            android:textSize="24dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="             "
+            android:textSize="24dp"
+            android:id="@+id/s1"/>
+
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:text="答案"
+            android:id="@+id/btnAns"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="答案 : "
+            android:textSize="24dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="24dp"
+            android:id="@+id/s2"/>
+
+
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    </LinearLayout>
+</LinearLayout>
+
